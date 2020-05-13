@@ -62,9 +62,9 @@ export default function Chat() {
             </div>
             <p>Thank you HR team for arranging such amazing Fun Friday Party</p>
             <div className={classes.icons}>
-            <img src={`./assets/like.svg`} alt="like" />
-            <img src={`./assets/liked.svg`} alt="liked" />
-            <img src={`./assets/comment.svg`} alt="comment" />
+            <img src={`assets/like.svg`} alt="like" />
+            <img src={`assets/liked.svg`} alt="liked" />
+            <img src={`assets/comment.svg`} alt="comment" />
             </div>
             <hr />
             <p>In conversation with all the employees</p>

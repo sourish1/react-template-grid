@@ -7,23 +7,23 @@ import Applications from './components/Applications.js';
 import Reports from './components/Reports.js';
 import Access from './components/Access.js';
 import Chat from './components/Chat.js';
-import { Switch, Route } from 'react-router-dom'
+import { HashRouter, Route } from 'react-router-dom'
 
 function App() {
   return (
     <div className="App">
     <Header />
-    <Switch>
-        <Route exact path='/'>
-          <Content />
-          <Applications />
-          <Reports />
-          <Access />
-        </Route>
-        <Route exact path='/chat'>
+    <HashRouter basename='/'>
+      <Route exact path='/'>
+        <Content />
+        <Applications />
+        <Reports />
+        <Access />
+      </Route>
+      <Route path='/chat'>
         <Chat />
-        </Route>
-    </Switch>
+      </Route>
+    </HashRouter>
     </div>
   );
 }
