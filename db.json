@@ -1,0 +1,20 @@
+{
+    "pinnedActions": [
+        {
+            "backgroundColor": "#e7f3e8",
+            "color": "#b9d5bb"
+        },
+        {
+            "backgroundColor": "#fff0de",
+            "color": "#dcb189"
+        },
+        {
+            "backgroundColor": "#e0dcee",
+            "color": "#a599ce"
+        },
+        {
+            "backgroundColor": "#d2f2f6",
+            "color": "#96c6eb"
+        }
+    ]
+}
